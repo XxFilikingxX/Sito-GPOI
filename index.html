@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="bg-black" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purple Course Company</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
     <script src="Bootstrap/js/bootstrap.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-
 <body class="bg_purpleGradiant">
     <header>
-        <nav class="navbar navbar-expand-lg bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-transparent border-1 border-bottom border-dark">
             <div class="container-fluid">
                 <a class="navbar-brand"><img width="75" src="Images/logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,8 +45,10 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid text-center rounded-5">
-            <div class="row container-fluid m-0 mt-4 p-4 rounded-4">
+        <div class="container-fluid text-center rounded-5 p-5 mb-5">
+            <h1 class="text-light display-3 animate__animated animate__fadeInUpBig">Chi siamo...</h1>
+            <hr class="text-warning border-3 rounded-5 mb-0 p-5 pb-0 animate__animated animate__fadeInDownBig">
+            <div class="row container-fluid m-0 p-4 pt-0 rounded-4">
                 <div class="col-3 container-fluid text-center first-box p-3 animate__animated animate__fadeInDownBig" onclick="window.location = 'SinglePages/DomEOff.html'" style="cursor: pointer;">
                     <h1 class="lead fw-semibold">Dinamica della Domanda e dell'Offerta: Guida Essenziale all'Economia</h1>
                     <hr>
@@ -90,50 +91,50 @@
             </div>
         </div>
         <div class="container-fluid mt-4 align-self-center">
-            <div class="row container-fluid w-100">
-                <div class="col-6 animate__animated animate__fadeInLeftBig text-center">
+            <div class="row container-fluid w-100 p-5">
+                <div class="col-6 animate__animated fadeInLeftBig text-center">
                     <h1 class="display-4 fw-semibold lead text-success">Utenti soddisfatti</h1>
                     <canvas id="chart_soddisfatti" width="50%"></canvas>
                 </div>
-                <div class="col-6 animate__animated animate__fadeInRightBig text-center">
+                <div class="col-6 animate__animated fadeInRightBig text-center">
                     <h1 class="display-4 fw-semibold lead text-danger">Utenti insoddisfatti</h1>
                     <canvas id="chart_insoddisfatti" width="50%"></canvas>
                 </div>   
             </div>
         </div>
         <div class="container-fluid row mt-5">
-            <h1 class="text-warning display-4 p-4 pb-0 mb-0 animate__animated animate__fadeInLeftBig">Rivoluziona il tuo Studio con l'Intelligenza Artificiale</h1>
-            <p class="display-6 lead text-warning-emphasis p-4 pt-0 animate__animated animate__fadeInLeftBig">Di seguito alcuni video dimostrazione </p>
+            <h1 class="text-warning display-4 p-4 pb-0 mb-0 animate__animated fadeInLeftBig">Rivoluziona il tuo Studio con l'Intelligenza Artificiale</h1>
+            <p class="display-6 lead text-warning-emphasis p-4 pt-0 animate__animated fadeInLeftBig">Di seguito alcuni video dimostrazione </p>
             <div class="container-fluid">
                 <div class="row p-4 align-items-center">
-                    <div class="p-3 col-8 animate__animated animate__fadeInLeftBig">
+                    <div class="p-3 col-8 animate__animated fadeInLeftBig">
                         <video src="Videos/Mici Rei - Domanda e Offerta - AI.mp4" class="object-fit-cover rounded w-100 full-box" controls>Your browser does not support the video tag.</video>
                     </div>
-                    <div class="p-3 col-4 animate__animated animate__fadeInRightBig"> 
+                    <div class="p-3 col-4 animate__animated fadeInRightBig"> 
                         <h1 class="display-3 text-center">Domanda<br> e <br>Offerta</h1>
                     </div>
                 </div>
                 <div class="row p-4 align-items-center">
-                    <div class="p-3 col-4 animate__animated animate__fadeInLeftBig">
+                    <div class="p-3 col-4 animate__animated fadeInLeftBig">
                         <h1 class="display-3 text-center">Investimento<br> e <br>Outsourcing</h1>
                     </div>
-                    <div class="p-3 col-8 animate__animated animate__fadeInRightBig"> 
+                    <div class="p-3 col-8 animate__animated fadeInRightBig"> 
                         <video src="Videos/Serafini Giuseppe - Investimento e Outsourcing - AI.mp4" class="object-fit-cover rounded w-100 full-box" controls>Your browser does not support the video tag.</video>
                     </div>
                 </div>
                 <div class="row p-4 align-items-center">
-                    <div class="p-3 col-8 animate__animated animate__fadeInLeftBig">
+                    <div class="p-3 col-8 animate__animated fadeInLeftBig">
                         <video src="Videos/Ugolini Filippo - VAN, TIR, Playback Period - AI.mp4" class="object-fit-cover rounded w-100 full-box" controls>Your browser does not support the video tag.</video>
                     </div>
-                    <div class="p-3 col-4 animate__animated animate__fadeInRightBig"> 
+                    <div class="p-3 col-4 animate__animated fadeInRightBig"> 
                         <h1 class="display-3 text-center">Van<br> Tir <br>Payback Period</h1>
                     </div>
                 </div>
                 <div class="row p-4 align-items-center">
-                    <div class="p-3 col-4 animate__animated animate__fadeInLeftBig"> 
+                    <div class="p-3 col-4 animate__animated fadeInLeftBig"> 
                         <h1 class="display-3 text-center">Domanda<br> e <br>Offerta</h1>
                     </div>
-                    <div class="p-3 col-8 animate__animated animate__fadeInRightBig">
+                    <div class="p-3 col-8 animate__animated fadeInRightBig">
                         <video src="Videos/Vitale Samuele Karol - Costi, Ricavi e BEP - AI.mp4" class="object-fit-cover rounded w-100 full-box" controls>Your browser does not support the video tag.</video>
                     </div>
                 </div>
